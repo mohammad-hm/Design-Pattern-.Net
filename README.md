@@ -1,2 +1,3 @@
 # Design-Pattern-.Net
-example of design patterns in dotnet
+Implement examples for different design pattern
+

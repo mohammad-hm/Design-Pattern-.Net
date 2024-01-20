@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using static System.Formats.Asn1.AsnWriter;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace design_pattern.Services
+namespace design_pattern.Services.Singleton
 {
     //Sealed in .NET is a modifier that can be applied to classes, methods, or properties. It prevents other classes from inheriting from a sealed class, or other methods or properties from overriding a sealed method or property. For example, you can use sealed to protect your class from being modified by subclasses, or to ensure that your method or property behaves as expected in derived classes
     public sealed class EagerLoadingSingletonExample
