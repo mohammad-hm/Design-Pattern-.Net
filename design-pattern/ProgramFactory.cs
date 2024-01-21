@@ -1,17 +1,17 @@
-﻿// Testing the Factory Design Pattern
-using design_pattern.Services.Factory;
+﻿//// Testing the Factory Design Pattern
+//using design_pattern.Services.Factory;
 
-public class Program
-{
-    public static void Main()
-    {
-        ILogger logger;
-        logger = LoggerFactory.CreateLogger("console");
-        logger.Log("This is a console log!");
-        logger = LoggerFactory.CreateLogger("file");
-        logger.Log("This message is written to a file.");
-        // The beauty of this approach is that the client code remains unchanged
-        // even if we introduce new logger types in the future.
-        Console.ReadKey();
-    }
-}
+//public class Program
+//{
+//    public static void Main()
+//    {
+//        ILogger logger;
+//        logger = LoggerFactory.CreateLogger("console");
+//        logger.Log("This is a console log!");
+//        logger = LoggerFactory.CreateLogger("file");
+//        logger.Log("This message is written to a file.");
+//        // The beauty of this approach is that the client code remains unchanged
+//        // even if we introduce new logger types in the future.
+//        Console.ReadKey();
+//    }
+//}
